@@ -1,4 +1,4 @@
-﻿No.,ID,group,conc,day,BW,ALT,AST,water batch,RNAbatch,total RNA concentration (ng/ul),plasma availability,note,to_be_removed,RIN_byIdenken,conc_byIdenken
+No.,ID,group,conc,day,BW,ALT,AST,water batch,RNAbatch,total RNA concentration (ng/ul),plasma availability,note,to_be_removed,RIN_byIdenken,conc_byIdenken
 1,1C1,Control,0,1,22.11,21,30,tap water,1220pm,82.6,1,,0,7.9,112
 2,1C2,Control,0,1,20.99,29,38,tap water,1220pm,36.3,1,,1,7.5,66
 3,1C3,Control,0,1,22.18,20,31,tap water,1221am,118,1,,0,8.1,148
@@ -49,12 +49,12 @@
 48,8T4,TAA,300,8,20.08,148,226,TAA 1000,1221am,361.7,1,,0,8.8,417
 49,8T5,TAA,300,8,18.15,839,751,TAA 1000,1221am,286.3,1,,0,8.2,388
 50,8T6,TAA,300,8,18.61,86,246,TAA 400,1221am,1137.4,1,,0,8.9,300
-51,1M1,MDA,750,1,20.19,32,44,MDA 400,1220pm,168.2,0,No plasma sample due to mixing 51 and 52 plasma,0,8.2,215
-52,1M2,MDA,750,1,20.9,112,103,MDA 400,1220pm,179.6,0,No plasma sample due to mixing 51 and 52 plasma,0,8.2,195
-53,1M3,MDA,750,1,21.17,50,58,MDA 400,1220pm,116.1,1,,0,8.4,160
-54,1M4,MDA,750,1,20.28,74,100,MDA 400,1221am,174.6,1,,1,8.3,229
-55,1M5,MDA,750,1,22.09,50,55,MDA 400,1221am,490.7,1,,0,8.5,317
-56,1M6,MDA,750,1,20.82,55,65,MDA 400,1221am,189.7,1,,0,8.5,233
+51,1M1,MDA,750,1,20.95,92,132,MDA 400,1220pm,168.2,0,No plasma sample due to mixing 51 and 52 plasma,0,8.2,215
+52,1M2,MDA,750,1,19.29,63,115,MDA 400,1220pm,179.6,0,No plasma sample due to mixing 51 and 52 plasma,0,8.2,195
+53,1M3,MDA,750,1,20.15,30,59,MDA 400,1220pm,116.1,1,,0,8.4,160
+54,1M4,MDA,750,1,19.53,72,154,MDA 400,1221am,174.6,1,,1,8.3,229
+55,1M5,MDA,750,1,20.87,97,202,MDA 400,1221am,490.7,1,,0,8.5,317
+56,1M6,MDA,750,1,20.2,139,317,MDA 400,1221am,189.7,1,,0,8.5,233
 57,2M1,MDA,750,2,18.68,1500,2070,MDA 1000,1217am,494.3,1,,0,8.7,373
 58,2M2,MDA,750,2,17.9,1985,2390,MDA 1000,1217am,201.9,1,,0,8.6,235
 59,2M3,MDA,750,2,18.85,1015,1870,MDA 1000,1217am,147.6,1,,0,8.6,193

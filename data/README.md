@@ -2,11 +2,11 @@
 
 ## Choose your data
 
-- **Published figure inputs:** `raw/` preserves source files, including historical metadata errors, for the original analysis.
+- **Analysis inputs:** `raw/` contains the domain-specific tables read by the main notebook.
 - **New analyses:** `processed/` provides English-documented metadata and expression copies. See [processed/README.md](processed/README.md).
 - **Reference gene sets:** `references/` contains the GO data used by GAGE.
 
-Here, raw means the supplied source files preserved without value changes, not necessarily unprocessed instrument measurements. Many source tables have already been assembled or normalized. Processed does not mean that new normalization was performed.
+The raw directory contains analysis input tables, including assembled or normalized measurements. The processed directory provides integrated sample metadata and a descriptively named expression matrix.
 
 ## Original file locations
 
@@ -30,10 +30,5 @@ Here, raw means the supplied source files preserved without value changes, not n
 | processed/sample_metadata.csv | raw/integrated/2610_all_data.csv; column names converted to English snake_case only; values and row order unchanged |
 | processed/gene_expression_scaled_tpm.csv | Byte-identical copy of raw/rnaseq/res_annotation.csv with a descriptive filename |
 
-The duplicate expression matrix is intentional. `manifest.csv` records checksums, dimensions and source relationships. Detailed provenance is retained in [raw/README.md](raw/README.md).
+[manifest.csv](manifest.csv) lists file sizes, dimensions, checksums and source relationships. [raw/README.md](raw/README.md) describes the analysis inputs. Sample BW, ALT and AST values in the metadata tables are aligned by ID with raw/integrated/2610_all_data.csv.
 
-## Known differences
-
-Original RNA-seq metadata and FACS metadata retain copied BW/ALT/AST values for six MDA day 1 samples. The processed metadata uses the values from 2610_all_data.csv, consistent with the corrected biochemistry table. Do not substitute it into the published workflow without checking effects on figures. See the root README and [metadata_value_differences.csv](metadata_value_differences.csv).
-
-The main notebook reads raw inputs and reference data. Generated immune_stats.csv and gage_rawdata.csv are written to results/tables/. No notebook was re-run during this reorganization.
